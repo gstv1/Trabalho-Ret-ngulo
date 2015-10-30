@@ -1,3 +1,9 @@
+/**************************************  
+* Trabalho 2 de Programacao de Computadores I - Retangulo 
+* Curso de Sistemas da informacao 
+* Aluno: Gustavo Ramos da Silva - matricula: 0050012981 
+* Professor: Alex Salgado ***************************************/
+
 #include <stdio.h>
 
 int main ()
@@ -6,9 +12,9 @@ int linha, coluna, l, a, car, cont;
   cont=115;
 
   do{
-    printf ("Olá, meu nome é Gustavo e o meu retângulo ficou assim, mas antes..");
+    printf ("Olá, meu nome é Gustavo e o meu retângulo ficou assim, mas antes.. ");
 
-    printf("\nQual o caracter desejado?");
+    printf("\nQual o caracter desejado? ");
     car = getchar();
   
   do
@@ -19,7 +25,7 @@ int linha, coluna, l, a, car, cont;
 
   do
   {
-    printf("Qual a altura do retângulo? ");
+    printf("\nQual a altura do retângulo? ");
     scanf("%d",&a);
   }while (a<=0);
   
